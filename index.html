@@ -18,16 +18,19 @@
             <span class="ml-3 text-xl cursor-pointer">Apni Pathshala</span>
           </a>
           <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center cursor-pointer">
-            <a class="mr-5 hover:text-gray-900">Courses</a>
+            <a class="mr-5 hover:text-gray-900" href="courses.html">Courses</a>
             <a class="mr-5 hover:text-gray-900">Batches</a>
             <a class="mr-5 hover:text-gray-900">Notes</a>
             <a class="mr-5 hover:text-gray-900">Results</a>
           </nav>
-          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Login/Signup
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
+          <a href="login.html">
+            <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Login/signup
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M665.08-450H180v-60h485.08L437.23-737.85 480-780l300 300-300 300-42.77-42.15L665.08-450Z"/></svg>
           </button>
+          </a>
+          <a href="feedback.html">
+            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+          </a>
         </div>
       </header>
       <section class="text-gray-600 body-font">
@@ -39,8 +42,9 @@
             <p class="mb-8 leading-relaxed">Best Teachers. Best Results.</p>
             <div class="flex justify-center">
               <button class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Free Demo ></button>
-              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">New here?</button>
-            </div>
+              <a href="login.html"><button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-400 hover:text-white rounded text-lg">New here?</button>
+              </a>
+              </div>
           </div>
           <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
@@ -161,36 +165,72 @@
         </div>
       </section>
 
-      <section class="text-gray-400 body-font bg-gray-900">
-  <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
-    <div class="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 md:mb-0 mb-10 pb-10 border-b border-gray-800">
-      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">Know your Teacher</h1>
-      <p class="leading-relaxed text-base">Here at Apni Pathshala, you will find known and qualified teachers like no other place.</p>
-      
-    </div>
-    <div class="flex flex-col md:w-1/2 md:pl-12">
-      <h2 class="title-font font-semibold text-white tracking-wider text-sm mb-3">We have here on our team</h2>
-      <nav class="flex flex-wrap list-none -mb-1">
-        <li class="lg:w-1/3 mb-1 w-1/2">
-          <a class="hover:text-white cursor-pointer">First Name</a>
-        </li>
-        <li class="lg:w-1/3 mb-1 w-1/2">
-          <a class="hover:text-white cursor-pointer">Second Name</a>
-        </li>
-        <li class="lg:w-1/3 mb-1 w-1/2">
-          <a class="hover:text-white cursor-pointer">Third Name</a>
-        </li>
-        <li class="lg:w-1/3 mb-1 w-1/2">
-          <a class="hover:text-white cursor-pointer">Fourth Name</a>
-        </li>
-      </nav>
-    </div>
-  </div>
-</section>
+      <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-col text-center w-full mb-20">
+            <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest">OUR TEAM</h1>
+            <p class="lg:w-2/3 mx-auto leading-relaxed text-base">All teachers teach. Greatest teachers inspire</p>
+            
+          </div>
+          <div class="flex flex-wrap -m-4">
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/200x200">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-white">Mr XX Sir</h2>
+                  <h3 class="text-gray-500 mb-3">Maths master teacher</h3>
+                  <p class="mb-4">11 yrs+ exp, IIT Nagpur  </p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/201x201">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-white">Alper Kamu</h2>
+                  <h3 class="text-gray-500 mb-3">Chemistry Master teacher</h3>
+                  <p class="mb-4">13 yr+ exp, IIT Delhi.</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/204x204">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-white">Atticus Finch</h2>
+                  <h3 class="text-gray-500 mb-3">Expert Physics</h3>
+                  <p class="mb-4">9 yrs+ exp, MNIT</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="p-4 lg:w-1/2">
+              <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="https://dummyimage.com/206x206">
+                <div class="flex-grow sm:pl-8">
+                  <h2 class="title-font font-medium text-lg text-white">Henry Letham</h2>
+                  <h3 class="text-gray-500 mb-3">Designer</h3>
+                  <p class="mb-4">5 yrs+ exp, NIT</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-      <section class="text-gray-400 bg-gray-900 body-font ">
+
+      <section class="text-gray-600 body-font ">
+        <div class="flex flex-col text-center w-full mb-20">
+
+        <h1 class="text-2xl font-medium title-font mb-4 text-black tracking-widest">Gallery</h1>
+        </div>
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
+          
           <div class="lg:w-2/3 mx-auto">
+            
             <div class="flex flex-wrap w-full bg-gray-800 py-32 px-10 relative mb-4 ">
               <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340">
               <div class="text-center relative z-10 w-full">
@@ -238,6 +278,9 @@
       </section>
 
       <section class="text-gray-400 bg-gray-900 body-font">
+        <div class="flex flex-col text-center w-full mb-20">
+
+          <h1 class="text-2xl font-medium title-font mb-4 text-white tracking-widest">Stories that inspire</h1>
         <div class="container px-5 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -267,6 +310,16 @@
                 <p class="text-gray-500">CTO</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
+            <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-gray-900">Happy to help you.</h1>
+            <button class="flex-shrink-0 text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-10 sm:mt-0">Need Help? Contact Us</button>
+
           </div>
         </div>
       </section>
